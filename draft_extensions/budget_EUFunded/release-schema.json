@@ -1,0 +1,44 @@
+{
+  "definitions": {
+    "EuropeanUnionFunding": {
+      "title": "European Union Funded",
+      "type": "object",
+      "properties": {
+        "projectIdentifier": {
+          "title": "Project Identifier",
+          "description": "National identifier of the EU project providing partial or full funding",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "projectName": {
+          "title": "Project Name",
+          "description": "Name or other national identification of the project providing full or partial funding.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "uri": {
+          "title": "Project uri",
+          "description": "Uri of the project providing full or partial funding.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
+      }
+    },
+    "Budget": {
+      "properties": {
+        "europeanUnionFunding": {
+          "title": "European Union Funded",
+          "description": "Details where a procurement has partial or full financing from a European funded project",
+          "$ref": "#/definitions/EuropeanUnionFunding"
+        }
+      }
+    }
+  }
+}

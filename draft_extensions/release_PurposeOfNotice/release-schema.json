@@ -1,0 +1,32 @@
+{
+      "properties": {
+        "purposeOfNotice": {
+          "title": "Purpose Of Notice",
+          "description": "Details about the purpose of this notice release - used to determine the fields in the notice that are required to be completed. Required by EU.",
+          "$ref": "#/definitions/PurposeOfNotice"
+      }
+  },
+  "definitions": {
+    "PurposeOfNotice": {
+      "title": "Purpose Of Notice",
+      "type": "object",
+      "properties": {
+        "reducesTimeLimits": {
+          "title": "Reduces Time Limits?",
+          "description": "A True/False field to indicate whether this notice aims at reducing time limits for the receipt of tenders ",
+          "type": "boolean"
+        },
+        "isACallForCompetition": {
+	    "title": "Is A Call For Competition?",
+	    "description": "A True/False field to indicate whether this notice is a call for competition",
+	    "type": "boolean"
+        },
+        "socialOrOtherSpecificServices": {
+	    "title": "Is For Social Or Other Specific Services?",
+	    "description": "A True/False field to indicate whether this notice is for social or other specific services",
+	    "type": "boolean"
+        }
+      }
+    }
+  }
+}

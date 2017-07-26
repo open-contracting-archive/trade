@@ -1,0 +1,69 @@
+{
+  "properties": {
+    "relatedNotice": {
+      "title": "Related notice",
+      "description": "Information that connects a notice with a related notice for the contracting process.",
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/RelatedNotice"
+      }
+    }
+  },
+  "definitions": {
+    "RelatedNotice": {
+      "title": "Related notice",
+      "description": "Information that connects a notice with another notice within the same procurement procedure",
+      "type": "object",
+      "properties": {
+        "scheme": {
+          "title": "Identifier scheme",
+          "description": "The source of the related notice identifier. Currently only 'TED' and 'national' are permitted values.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "TED",
+            "National"
+          ]
+        },
+        "id": {
+          "title": "id",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The identifier of the related national notice."
+        },
+        "relationship": {
+          "title": "Relationship",
+          "description": "Type of relationship",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "previousNotice"
+          ]
+        },
+        "objectOfProcurementInPIN": {
+          "title": "Object of the procurement within the PIN",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "If the related notice linked to is a planning or 'Prior Information Notice' (PIN) that describes a number of potential tenders, the identifier of the specific Object to which this current contracting process relates should be given."
+        },
+        "uri": {
+          "title": "uri",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Uri of a national notice",
+          "format": "uri"
+        }
+      }
+    }
+  }
+}

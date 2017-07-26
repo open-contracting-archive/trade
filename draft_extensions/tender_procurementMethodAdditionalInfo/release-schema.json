@@ -1,0 +1,16 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "procurementMethodAdditionalInfo": {
+          "title": "Procurement method additional information",
+          "description": "Additional information about the procurement method.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}

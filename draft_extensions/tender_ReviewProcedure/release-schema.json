@@ -1,0 +1,27 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "reviewParties": {
+          "title": "Organizations involved in the review procedure of the tender",
+          "description": "The organizations involved in the review procedure for the procurement procedure. Required by the EU and UNCITRAL",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationReference"
+          },
+          "uniqueItems": true
+        },
+        "reviewPeriod": {
+          "title": "Review period",
+          "description": "The period during which the decision of the procuring entity to award a contract can be challenged.",
+          "$ref": "#/definitions/Period"
+        },
+        "standstillPeriod": {
+          "title": "Standstill period",
+          "description": "The duration of the applicable standstill period following a challenge or appeal of decisions or actions taken by the procuring entity that are allegedly not in compliance with the provisions of the Law",
+          "$ref": "#/definitions/Period"
+        }
+      }
+    }
+  }
+}

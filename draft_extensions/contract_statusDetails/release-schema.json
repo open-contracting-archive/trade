@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "Award": {
+      "properties": {
+        "statusDetails": {
+          "title": "Status details",
+          "description": "Additional details of an award status.",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

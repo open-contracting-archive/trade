@@ -1,0 +1,53 @@
+{
+  "definitions": {
+    "Objectives": {
+      "title": "Tender objectives",
+      "type": "object",
+      "properties": {
+        "environmental": {
+          "title": "Tender environmental objectives",
+          "description": "A True/False field to indicate if the tender has environmental objectives. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "social": {
+          "title": "Tender social objectives",
+          "description": "A True/False field to indicate if the tender has social objectives. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "innovation": {
+          "title": "Tender innovation objectives",
+          "description": "A True/False field to indicate if the tender has an objective of buying innovative work. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "additionalInformation": {
+          "title": "Tender objectives additional information",
+          "description": "Further details about the objectives of the procurement. Required by the EU",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Tender": {
+      "properties": {
+        "properties": {
+          "Objectives": {
+            "title": "Tender objectivess",
+            "description": "Details about the tender's objectives: environmental, social and/or for innovation. Required by the EU",
+            "$ref": "#/definitions/Objectives"
+          }
+        }
+      }
+    }
+  }
+}

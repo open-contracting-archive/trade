@@ -1,0 +1,5 @@
+{
+  "name": "Tender Design Contest",
+  "description": "The tender takes the form of a design contest. Fields that relate specifically to the design contest are modelled here.",
+  "compatibility": ">=1.1"
+}

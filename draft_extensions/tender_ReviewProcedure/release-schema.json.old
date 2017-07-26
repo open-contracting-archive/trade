@@ -1,0 +1,40 @@
+{
+  "definitions": {
+    "reviewProcedure": {
+      "title": "reviewProcedure",
+      "type": "object",
+      "properties": {
+        "reviewBody": {
+          "title": "Tender award review body",
+          "description": "The organization who will act as the review body for the procurement procedure. Required by the EU and UNCITRAL",
+          "$ref": "#/definitions/OrganizationReference"
+        },
+        "mediationBody": {
+          "title": "Tender award mediation body",
+          "description": "The organization who will act as the mediation body for the procurement procedure. Required by the EU and UNCITRAL",
+          "$ref": "#/definitions/OrganizationReference"
+        },
+        "reviewInformationService": {
+          "title": "Review information service",
+          "description": "The organization who will provide the information service for the procurement review procedure. Required by the EU and UNCITRAL",
+          "$ref": "#/definitions/OrganizationReference"
+        },
+        
+        "reviewTimelines": {
+	            "title": "Review procedure timelines",
+	            "description": "The timelines for the procurement review procedure. Required by the EU and UNCITRAL",
+	            "type": "string"
+        }      
+      }
+    },
+    "Tender": {
+      "properties": {
+        "reviewProcedure": {
+          "title": "Tender award review procedure",
+          "description": "Details about the review procedure for tender awards: organizations involved and review deadlines. Required by the EU & UNCITRAL",
+          "$ref": "#/definitions/reviewProcedure"
+        }
+      }
+    }
+  }
+}

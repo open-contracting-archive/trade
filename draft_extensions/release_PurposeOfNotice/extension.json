@@ -1,0 +1,5 @@
+{
+  "name": "Purpose of Notice",
+  "description": "Details about the purpose of this notice release - used to determine the fields in the notice that are required to be completed. Required by EU.",
+  "compatibility": ">=1.1"
+}

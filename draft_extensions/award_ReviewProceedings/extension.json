@@ -1,0 +1,5 @@
+{
+  "name": "Award review proceedings",
+  "description": "Details about any application for a review of the award.",
+  "compatibility": ">=1.1"
+}

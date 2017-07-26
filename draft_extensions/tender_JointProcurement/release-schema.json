@@ -1,0 +1,37 @@
+{
+  "definitions": {
+    "JointProcurement": {
+      "title": "Joint procurement",
+      "type": "object",
+      "properties": {
+        "isJointProcurement": {
+          "title": "Is A Joint Procurement",
+          "description": "A True/False field to indicate if this is a joint procurement or not. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "country": {
+          "title": "Country",
+          "description": "ISO Country Code of the country where the law applies. Use ISO Alpha-2 country codes.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "minLength": 2,
+          "maxLength": 3
+        }
+      }
+    },
+    "Tender": {
+      "properties": {
+        "jointProcurement": {
+          "title": "Joint Procurement details",
+          "description": "Details about a joint procurement. Required by the EU",
+          "$ref": "#/definitions/JointProcurement"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Initiation Type",
+  "description": "Initiation type: String specifying the type of initiation process used for this contract, taken from the initiationType codelist. This extension adds Design Contest to the codelist",
+  "compatibility": ">=1.1"
+}

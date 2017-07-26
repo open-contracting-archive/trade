@@ -1,0 +1,5 @@
+{
+  "name": "Related Parties",
+  "description": "An array of parties who are related to the milestone and a free text field to record any additional information",
+  "compatibility": ">=1.1"
+}

@@ -1,0 +1,11 @@
+Category,Code,Title_en,Description_en,Source
+,AIRPORT_RELATED_ACTIVITIES,,Airport-related activities,http://formex.publications.europa.eu/ted/schema
+,ELECTRICITY,,Electricity-related activities,http://formex.publications.europa.eu/ted/schema
+,EXPLORATION_EXTRACTION_COAL_OTHER_SOLID_FUEL,,Exploration and extraction of coal or other solid fuels,http://formex.publications.europa.eu/ted/schema
+,EXPLORATION_EXTRACTION_GAS_OIL,,Extraction of gas or oil,http://formex.publications.europa.eu/ted/schema
+,PORT_RELATED_ACTIVITIES,,Port-related activities,http://formex.publications.europa.eu/ted/schema
+,POSTAL_SERVICES,,Postal services,http://formex.publications.europa.eu/ted/schema
+,PRODUCTION_TRANSPORT_DISTRIBUTION_GAS_HEAT,,Production transport and distribution of gas or heat,http://formex.publications.europa.eu/ted/schema
+,RAILWAY_SERVICES,,Railway services,http://formex.publications.europa.eu/ted/schema
+,URBAN_RAILWAY_TRAMWAY_TROLLEYBUS_BUS_SERVICES,,Urban railway tramway trolleybus or bus services,http://formex.publications.europa.eu/ted/schema
+,WATER,,Water-related activities,http://formex.publications.europa.eu/ted/schema

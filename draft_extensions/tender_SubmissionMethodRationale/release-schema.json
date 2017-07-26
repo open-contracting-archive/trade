@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "submissionMethodRationale": {
+          "title": "Submisson Method Rationale",
+          "description": "A value from the [submissionValueRationale codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/submission-method-rationale) that identifies the rationale where electronic submission method is not to be allowed. Required by EU.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "TOOLS_DEVICES_FILE_FORMATS_UNAVAILABLE",
+		  "IPR_ISSUES",
+		  "REQUIRES_SPECIALISED_EQUIPMENT",
+		  "PHYSICAL_MODEL",
+		  "SENSITIVE_INFORMATION",
+              null
+            ]
+          }
+        }
+      }
+    }
+  }
+}

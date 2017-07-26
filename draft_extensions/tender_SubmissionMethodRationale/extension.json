@@ -1,0 +1,5 @@
+{
+  "name": "Submisson Method Rationale",
+  "description": "A value from the [submissionValueRationale codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#ZZZ) that identifies the rationale where electronic submission method is not to be allowed. Required by EU.",
+  "compatibility": ">=1.1"
+}

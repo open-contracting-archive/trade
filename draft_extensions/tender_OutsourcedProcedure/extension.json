@@ -1,0 +1,5 @@
+{
+  "name": "Is the procurement process outsourced?",
+  "description": "A True/False field to indicate whether the procurement procedure has been outsourced.",
+  "compatibility": ">=1.2"
+}

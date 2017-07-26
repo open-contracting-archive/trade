@@ -1,0 +1,5 @@
+{
+  "name": "Lot options",
+  "description": "An object that states whether options to the lot will be accepted and a description of what they may consist of.",
+  "compatibility": ">=1.1"
+}

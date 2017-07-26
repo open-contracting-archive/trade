@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "Contract": {
+      "properties": {
+        "countryOfOrigin": {
+          "title": "Country of Origin",
+          "description": "Country of origin of the product or service. Required by EU.",
+          "type": "string"
+        }
+      }
+    }
+  }
+}

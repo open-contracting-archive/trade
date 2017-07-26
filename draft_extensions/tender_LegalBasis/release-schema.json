@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "legalBasis": {
+          "title": "Tender legal basis",
+          "description": "The legal basis of the tender based on the [legalBasis codelist](http://standard.open-contracting.org/......",
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+ 			"DIRECTIVE_2014_23_EU",
+ 			"DIRECTIVE_2014_24_EU",
+ 			"DIRECTIVE_2014_25_EU",
+ 			"DIRECTIVE_2009_81_EC",
+ 			"REGULATION_966_2012",
+ 			"NATIONAL_PROCUREMENT_LAW",
+			"NULL"
+          ]
+        }
+      }
+    }
+  }
+}

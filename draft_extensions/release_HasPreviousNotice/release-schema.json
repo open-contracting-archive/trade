@@ -1,0 +1,9 @@
+{
+  "properties": {
+    "hasPreviousNotice": {
+      "title": "Has previous notice?",
+      "description": "A True or False field to indicate whether this release represents a TED notice that is connected to a previous notice, either TED or national. Required by EU.",
+      "type": "boolean"
+    }
+  }
+}

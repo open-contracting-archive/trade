@@ -1,0 +1,17 @@
+{
+  "definitions": {
+    "Organization": {
+      "properties": {
+        "buyerProfile": {
+          "title": "Buyer Profile URI",
+          "description": "For buyer organisations only: the url of the organization's buyer profile. Specified by the EU",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        }
+      }
+    }
+  }
+}

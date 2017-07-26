@@ -1,0 +1,32 @@
+{
+  "definitions": {
+    "AcceleratedProcedure": {
+      "title": "Accelerated Procedure",
+      "type": "object",
+      "properties": {
+        "isAcceleratedProcedure": {
+          "title": "is Accelerated Procedure?",
+          "description": "A True/False field to indicate whether an accelerated procedure has been used for this procurement",
+          "type": "boolean"
+        },
+        "acceleratedProcedureJustification": {
+          "title": "Accelerated Procedure Justification",
+          "description": "Justification for using an accelerated procedure",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Tender": {
+      "properties": {
+        "acceleratedProcedure": {
+          "title": "Accelerated Procedure",
+          "description": "Details about whether an accelerated procurement is being used and the justification for doing so.",
+          "$ref": "#/definitions/AcceleratedProcedure"
+        }
+      }
+    }
+  }
+}

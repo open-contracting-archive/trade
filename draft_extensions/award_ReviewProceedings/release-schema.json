@@ -1,0 +1,77 @@
+{
+  "definitions": {
+    "ReviewProceedings": {
+      "title": "Review Proceedings",
+      "type": "object",
+      "properties": {
+        "buyerProcedureReview": {
+          "title": "Award buyer procedure review",
+          "description": "A True/False field to indicate if an economic operator applied to the buyer for a review of the procedure. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "reviewBodyChallenge": {
+          "title": "Award review body challenge",
+          "description": "A True/False field to indicate if an economic operator or another party challenged the procedure before a review body. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "legalProcedures": {
+          "title": "Award legal procedures review",
+          "description": "Identifier(s) of any review procedure(s) initiated. Required by the EU",
+          "type": [
+            "array"
+          ],
+          "items": {
+            "$ref": "#/definitions/LegalProceedings"
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "LegalProceedings": {
+      "title": "Legal Proceeedings",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Legal Proceeedings id",
+          "description": "Legal identifier(s) of any review procedure(s) initiated. Required by the EU",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "title": {
+          "title": "Legal Proceeedings Title",
+          "description": "Title(s) of any legal proceedings(s) initiated.",
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "uri": {
+          "title": "Legal Proceeedings uri",
+          "description": "Legal identifier(s) of any review procedure(s) initiated.",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Award": {
+      "properties": {
+        "reviewProceedings": {
+          "title": "Award review proceedings",
+          "description": "Details about any application for a review of the award. Required by the EU",
+          "$ref": "#/definitions/ReviewProceedings"
+        }
+      }
+    }
+  }
+}

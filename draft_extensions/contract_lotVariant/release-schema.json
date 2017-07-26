@@ -1,0 +1,20 @@
+{
+  "definitions": {
+    "Contract": {
+      "properties": {
+        "lotVariant": {
+          "title": "Lot Variant",
+          "description": "The contract was awarded to a tenderer who submitted a variant for the following lot(s)",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string",
+            "uniqueItems": true 
+          }
+        }
+      }
+    }
+  }
+}

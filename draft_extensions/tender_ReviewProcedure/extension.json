@@ -1,0 +1,5 @@
+{
+  "name": "Review procedure",
+  "description": "The organizations involved in a review procedure, the deadline to request a review and standstill period.",
+  "compatibility": ">=1.0.0"
+}

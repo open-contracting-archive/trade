@@ -1,0 +1,5 @@
+{
+  "name": "Related Process",
+  "description": "An array containing the lot identifiers of the lots within this contract that may be subcontracted. Required by the EU",
+  "compatibility": ">=1.1"
+}

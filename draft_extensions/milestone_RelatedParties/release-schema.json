@@ -1,0 +1,24 @@
+{
+  "definitions": {
+    "Milestone": {
+      "properties": {
+        "relatedParties": {
+          "title": "Related Parties",
+          "description": "Parties that have a relationship with the milestone.",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/OrganizationReference"
+          }
+        },
+        "additionalInformation": {
+          "title": "Additional information",
+          "description": "Additional information about the milestone",
+          "type": [
+            "string",
+            "integer"
+          ]
+        }
+      }
+    }
+  }
+}

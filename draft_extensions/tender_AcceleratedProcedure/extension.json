@@ -1,0 +1,5 @@
+{
+  "name": "Accelerated Procedure",
+  "description": "Details about whether an accelerated procurement is being used and the justification for doing so",
+  "compatibility": ">=1.1"
+}

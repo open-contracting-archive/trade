@@ -1,0 +1,5 @@
+{
+  "name": "Buyer Internal Reference Identifier",
+  "description": "The buyer internal reference identifier is an EU specific field. It uniquely identifies a procurement process within the Buyer's internal system.",
+  "compatibility": ">=1.1"
+}

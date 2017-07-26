@@ -1,0 +1,5 @@
+{
+  "name": "Joint Procurement",
+  "description": "An object that states whether this is a joint procurement with the capacity to record where the law applies",
+  "compatibility": ">=1.1"
+}

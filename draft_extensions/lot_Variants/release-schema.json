@@ -1,0 +1,38 @@
+{
+  "definitions": {
+    "variants": {
+      "title": "Variants",
+      "type": "object",
+      "properties": {
+        "hasVariants": {
+          "title": "Lot Variants",
+          "description": "A True/False field to indicate if lot variants will be accepted. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "variantDetails": {
+          "title": "Lot variant details",
+          "description": "Further information about the lot variants that will be accepted. Required by the EU",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Lot": {
+      "properties": {
+        "variants": {
+          "title": "Lot variants",
+          "description": "Details about lot variants: if they will be accepted and what they can consist of. Required by the EU",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/variants"
+          }
+        }
+      }
+    }
+  }
+}

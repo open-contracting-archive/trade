@@ -1,0 +1,6 @@
+Does this need to be an Object or should it be two separate data fields?
+Both options are provided in the folder.
+
+The codelist has been adapted from the country codes on Wikipedia at https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes. Needs canonical source.
+
+Should the country code field enumerate all of the values in the codelist? Two letter or three letter code?

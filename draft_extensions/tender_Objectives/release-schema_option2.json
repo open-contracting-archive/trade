@@ -1,0 +1,42 @@
+{
+  "definitions": {
+    "Objectives": {
+      "title": "Tender objectives",
+      "type": "object",
+      "properties": {
+        "objectives": {
+          "title": "Tender objectives",
+          "description": "Contract performance conditions with environmental, social and innovative objectives. Required by the EU.",
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "environmental",
+              "social",
+              "innovative"
+            ]
+          }
+        },
+        "additionalInformation": {
+          "title": "Tender objectives additional information",
+          "description": "Further details about the objectives of the procurement. Required by the EU",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Tender": {
+      "properties": {
+        "properties": {
+          "Objectives": {
+            "title": "Tender objectivess",
+            "description": "Details about the tender's objectives: environmental, social and/or for innovation. Required by the EU",
+            "$ref": "#/definitions/Objectives"
+          }
+        }
+      }
+    }
+  }
+}

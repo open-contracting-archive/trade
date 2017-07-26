@@ -1,0 +1,5 @@
+{
+  "name": "Related Notice",
+  "description": "Information that connects a notice with a previous notice within the same procurement procedure",
+  "compatibility": ">=1.1"
+}

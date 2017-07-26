@@ -1,0 +1,35 @@
+{
+  "definitions": {
+    "jointProcurement": {
+      "title": "Joint procurement",
+      "type": "object",
+      "properties": {
+        "isJointProcurement": {
+          "title": "Is A Joint Procurement",
+          "description": "A Yes/No field to indicate if this is a joint procurement or not. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "country": {
+          "title": "country",
+          "description": "Code of the country for where the law applies",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Tender": {
+      "properties": {
+        "jointProcurement": {
+          "title": "Joint Procurement details",
+          "description": "Details about a joint procurement. Required by the EU",
+          "$ref": "#/definitions/Joint Procurement"
+        }
+      }
+    }
+  }
+}

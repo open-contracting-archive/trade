@@ -1,0 +1,35 @@
+{
+  "properties": {
+    "nationalNotice": {
+      "title": "National notice",
+      "description": "Information that connect a notice with a previous notice within the same procurement procedure",
+      "$ref": "#/definitions/NationalNotice"
+    }
+  },
+  "definitions": {
+    "NationalNotice": {
+      "title": "National notice",
+      "description": "Information that connects a notice with a previous notice within the same procurement procedure",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "id",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Identifier of a national notice"
+        },
+        "uri": {
+          "title": "uri",
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Uri of a national notice",
+          "format": "uri"
+        }
+      }
+    }
+  }
+}

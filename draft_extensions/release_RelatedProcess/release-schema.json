@@ -1,0 +1,32 @@
+{
+  "definitions": {
+    "relatedProcess": {
+      "description": "A link to a related contracting process in OCDS and the type of relationship.",
+      "type": "object",
+      "title": "Related Process",
+      "properties": {
+        "relatedLots": {
+          "title": "Related lots",
+          "description": "For subcontracting relationships: an array containing the lot identifiers of the lots within the current contracting process that may be subcontracted in the related process. Required by the EU",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          }
+        },
+        "description": {
+          "title": "description",
+          "description": "A description of the related process. In the case of subcontracting relationships, this should include a description of the part of the contract to be subcontracted. Required by the EU",
+          "type": "string"
+        },
+        "value": {
+          "title": "value",
+          "description": "Estimated or actual value of the related process. Required by the EU for estimates of the value of related subcontracting processes.",
+          "$ref": "#/definitions/Value"
+        }
+      }
+    }
+  }
+}

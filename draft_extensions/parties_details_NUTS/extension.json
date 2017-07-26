@@ -1,0 +1,5 @@
+{
+  "name": "NUTS Code",
+  "description": "Additional classification information about parties from the NUTS (Classification of Territorial Units for Statistics) scheme. Required by the EU.",
+  "compatibility": ">=1.1"
+}

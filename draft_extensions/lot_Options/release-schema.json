@@ -1,0 +1,38 @@
+{
+  "definitions": {
+    "options": {
+      "title": "Options",
+      "type": "object",
+      "properties": {
+        "hasOptions": {
+          "title": "Lot Options",
+          "description": "A True/False field to indicate if lot options will be accepted. Required by the EU",
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "optionDetails": {
+          "title": "Lot option details",
+          "description": "Further information about the lot options that will be accepted. Required by the EU",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Lot": {
+      "properties": {
+        "options": {
+          "title": "Lot options",
+          "description": "Details about lot options: if they will be accepted and what they can consist of. Required by the EU",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/options"
+          }
+        }
+      }
+    }
+  }
+}

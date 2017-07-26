@@ -1,0 +1,5 @@
+{
+  "name": "Status details",
+  "description": "Additional details of an award status.",
+  "compatibility": ">=1.1"
+}

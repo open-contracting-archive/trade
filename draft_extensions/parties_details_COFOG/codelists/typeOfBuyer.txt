@@ -1,0 +1,10 @@
+Category,Code,Title_en,Description_en,Source
+,MINISTRY,,Central government authority,http://formex.publications.europa.eu/ted/schema
+,REGIONAL_AUTHORITY,,Regional government authority,http://formex.publications.europa.eu/ted/schema
+,LOCAL_GOVERNMENT,,Local government authority,EU code not found - constructed from description
+,BODY_PUBLIC,,Body governed by public law,http://formex.publications.europa.eu/ted/schema
+,SUBSIDIZED_BUYER,,Buyer awarding a contract subsidized by a contracting authority,EU code not found - constructed from description
+,PUBLIC_UNDERTAKING,,Public undertaking,EU code not found - constructed from description
+,SPECIAL_OR_EXCLUSIVE_RIGHT,,Buyer operating on the basis of a special or exclusive right,EU code not found - constructed from description
+,INTERNATIONAL_ORGANIZATION,,International organisation,EU code not found - constructed from description
+,OTHER,,Other,EU code not found - constructed from description

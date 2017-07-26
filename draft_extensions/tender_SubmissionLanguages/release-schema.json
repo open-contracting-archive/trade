@@ -1,0 +1,48 @@
+{
+  "definitions": {
+    "Tender": {
+      "properties": {
+        "submissionLanguages": {
+          "title": "Submission Languages",
+          "description": "Language(s) in which tenderers may submit, drawn from the [submissionLanguages codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#submission-languages)",
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "enum": [
+            "bg",
+            "es",
+		"cs",
+		"da",
+		"de",
+		"et",
+		"el",
+		"en",
+		"fr",
+		"ga",
+		"hr",
+		"it",
+		"lv",
+		"lt",
+		"hu",
+		"mt",
+		"nl",
+		"pl",
+		"pt",
+		"ro",
+		"sk",
+		"sl",
+		"fi",
+		"sv",
+            null
+          ],
+          "codelist": "submissionLanguages.csv",
+          "openCodelist": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Party Details",
+  "description": "Additional classification information about parties from the COFOG scheme and an indication if the buyer is a central purchasing body. Required by the EU.",
+  "compatibility": ">=1.1"
+}

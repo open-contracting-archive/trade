@@ -1,0 +1,5 @@
+{
+  "name": "Lot variants",
+  "description": "Details about lot variants: if they will be accepted and what they can consist of. Required by the EU",
+  "compatibility": ">=1.1"
+}

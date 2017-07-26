@@ -1,0 +1,5 @@
+{
+  "name": "Buyer Profile",
+  "description": "For buyer organisations only: the url of the organization's buyer profile. Specified by the EU",
+  "compatibility": ">=1.1"
+}

@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "Budget": {
+        "properties": {
+          "isEuropeanUnionFunded": {
+            "title": "Is European Union Funded",
+            "description": "A True or False field to indicate whether this procurement is related to a project and/or programme financed by European Union funds.",
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,43 @@
+{
+  "definitions": {
+    "Renewals": {
+      "title": "Renewals",
+      "type": "object",
+      "properties": {
+        "hasRenewals": {
+          "title": "Has renewals?",
+          "description": "A True/False field to indicate whether contract renewals are allowed.",
+          "type": "boolean"
+        },
+        "maxNumber": {
+          "title": "Maximum number",
+          "description": "Maximum number of renewals of this lot",
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "renewalConditions": {
+          "title": "Renewal Conditions",
+          "description": "Conditions for, and descriptions of, any renewals of this lot",
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "Tender": {
+      "properties": {
+        "renewals": {
+          "title": "Renewals",
+          "description": "Details of allowable contract renewals",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Renewals"
+          }
+        }
+      }
+    }
+  }
+}

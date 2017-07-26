@@ -1,0 +1,5 @@
+{
+  "name": "Recurrent Procurement",
+  "description": "Details of possible recurrent procurements and their subsequent calls for competition.",
+  "compatibility": ">=1.1"
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Concession",
+  "description": "Details of any concessions that may be part of the contract.",
+  "compatibility": ">=1.1"
+}

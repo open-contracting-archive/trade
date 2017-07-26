@@ -1,0 +1,5 @@
+{
+  "name": "Country of origin",
+  "description": "Country of origin of the product or service. Required by EU.",
+  "compatibility": ">=1.1"
+  }

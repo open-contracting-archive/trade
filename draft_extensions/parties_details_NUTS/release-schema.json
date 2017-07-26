@@ -1,0 +1,25 @@
+{
+  "definitions": {
+    "Organization": {
+      "properties": {
+        "details": {
+          "description": "Additional classification information about parties from the NUTS (Classification of Territorial Units for Statistics) scheme. Required by the EU.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "NUTSCode": {
+              "title": "NUTS Code",
+              "description": "The most detailed level of NUTS codes, NUTS 3 should be used and it should be taken from the EU codelist linked from http://ec.europa.eu/eurostat/ramon/index.cfm?TargetUrl=DSP_PUB_WELC.",
+              "type": [
+                "string",
+                "null"
+              ]
+		}
+          }
+        }
+      }
+    }
+  }
+}

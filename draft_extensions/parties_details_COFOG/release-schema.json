@@ -1,0 +1,81 @@
+{
+  "definitions": {
+    "Organization": {
+      "properties": {
+        "details": {
+          "description": "Additional classification information about parties from the COFOG scheme and an indication if the buyer is a central purchasing body. Required by the EU.",
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "typeOfBuyer": {
+              "title": "Type of Buyer",
+              "description": "A value from the [typeOfBuyer codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#type-of-buyer). The type of buyer taken from the EU's specified list in its TED forms.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+              "BODY_PUBLIC",
+              "EU_INSTITUTION",
+              "MINISTRY",
+              "NATIONAL_AGENCY",
+              "REGIONAL_AGENCY",
+		  "REGIONAL_AUTHORITY"
+              ]
+            },
+            "mainGeneralActivity": {
+              "title": "Main General Activity",
+              "description": "A value from the [mainGeneralActivity codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#main-general-activity). The main general activity of the buyer taken from the EU's specified list in its TED forms which is taken from the United Nations Classification of the Functions of Government (COFOG) codelist.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+              "DEFENCE",
+              "ECONOMIC_AND_FINANCIAL_AFFAIRS",
+		  "EDUCATION",
+		  "ENVIRONMENT",
+		  "GENERAL_PUBLIC_SERVICES",
+		  "HEALTH",
+		  "HOUSING_AND_COMMUNITY_AMENITIES",
+	        "PUBLIC_ORDER_AND_SAFETY",
+	        "RECREATION_CULTURE_AND_RELIGION",
+        	  "SOCIAL_PROTECTION"
+              ]
+            },
+            "mainSectoralActivity": {
+              "title": "Main Sectoral Activity",
+              "description": "A value from the [mainSectoralActivity codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#main-sectoral-activity) The main sectoral activity of the buyer taken from the EU's specified list in its TED forms which is taken from the United Nations Classification of the Functions of Government (COFOG) codelist.",
+              "type": [
+                "string",
+                "null"
+              ],
+              "enum": [
+              "AIRPORT_RELATED_ACTIVITIES",
+		  "ELECTRICITY",
+		  "EXPLORATION_EXTRACTION_COAL_OTHER_SOLID_FUEL",
+		  "EXPLORATION_EXTRACTION_GAS_OIL",
+		  "PORT_RELATED_ACTIVITIES",
+		  "POSTAL_SERVICES",
+		  "PRODUCTION_TRANSPORT_DISTRIBUTION_GAS_HEAT",
+		  "RAILWAY_SERVICES",
+		  "URBAN_RAILWAY_TRAMWAY_TROLLEYBUS_BUS_SERVICES",
+        	  "WATER"
+              ]
+            },
+            "isACentralPurchasingBody": {
+              "title": "Is the organization a central purchasing body?",
+              "description": "A true/false field to indicate whether the organization is a central purchasing body.",
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

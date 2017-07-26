@@ -1,0 +1,29 @@
+{
+  "definitions": {
+    "ProcedureOutsourcing": {
+      "title": "Procedure Outsourcing",
+      "type": "object",
+      "properties": {
+        "procedureOutsourced": {
+          "title": "procedureOutsourced",
+          "description": "A True/False field to indicate whether the procurement procedure has been outsourced",
+          "type": "boolean"
+        },
+        "outsourcedTo": {
+          "title": "Outsourced To",
+          "description": "An organization reference to identify the organization that is running the outsourced procedure",
+          "$ref": "#/definitions/Organization"
+        }
+      }
+    },
+    "Tender": {
+      "properties": {
+        "procedureOutsourcing": {
+          "title": "Procedure Outsourcing",
+          "description": "Whether the procurement procedure has been outsourced. If it has then a record of the organisation that is running the procedure on behalf of the buyer",
+          "$ref": "#/definitions/ProcedureOutsourcing"
+        }
+      }
+    }
+  }
+}

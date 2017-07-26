@@ -1,0 +1,5 @@
+{
+  "name": "Main Classification",
+  "description": "The primary classification for the tender. Required by the EU. Uses CPV Cod See the [itemClassificationScheme](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#item-classification-scheme).",
+  "compatibility": ">=1.1"
+}

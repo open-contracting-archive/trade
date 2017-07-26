@@ -1,0 +1,5 @@
+{
+  "name": "Submission Languages",
+  "description": "Language(s) in which tenderers may submit, drawn from the [submissionLanguages codelist](http://standard.open-contracting.org/1.1-dev/en/schema/codelists/#submission-languages ZZZ Needs to be obtained)",
+  "compatibility": ">=1.1"
+}
